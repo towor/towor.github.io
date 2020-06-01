@@ -1,0 +1,63 @@
+:root{
+    --primary-color:#00838f;
+    --color-secondary: #005662;
+    --color-primary-text: rgba(0, 0, 0, 0.87);
+    --color-secondary-text: rgba(0, 0, 0, 0.6);
+
+}
+
+.card-container{
+    display: grid;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0 0 8px gray;
+    border-radius: 5px;
+}
+
+
+.card-top-image{
+    
+}
+
+.card-top-image img{
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+}
+
+.card-title{
+    margin: 20px;
+    color: var(--color-primary-text);
+}
+
+.card-description{
+    margin: 20px;
+    color: var(--color-secondary-text);
+}
+
+.googleplay-badge{
+    text-align: center;
+}
+
+.googleplay-badge img{
+    width: 200px;
+}
+
+.work-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px){
+    .card-container{
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}

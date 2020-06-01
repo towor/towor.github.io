@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#00838f;
+    --color-secondary: #005662;
+    --color-primary-text: rgba(0, 0, 0, 0.87);
+    --color-secondary-text: rgba(0, 0, 0, 0.6);
+
+}
+
+h2{
+    margin: 20px 0px 10px 0px;
+    color: var(--color-primary-text);
+}
+
+h3{
+    margin: 10px;
+    color: var(--color-secondary-text);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left
+}
+
+table th, table td {
+    padding: 8px 4px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.td1 {
+    width: 30%;
+    text-align: center;
+}
+
+.introduction{
+    margin: 10px auto;
+    max-width: 1000px;
+}
+
