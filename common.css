@@ -52,6 +52,25 @@ hr{
     color: var(--color-primary-text);
 }
 
+.link{
+    font-size: 20px;
+    color: var(--color-primary-text);
+    text-decoration: none;
+    opacity: 0.87; 
+}
+
+.link:hover{
+    opacity: 0.6;
+}
+
+#nav-main-menu{
+    margin: 0px 0px 16px 0px;
+}
+
+#nav-main-menu a{
+    text-decoration: none;
+}
+
 #icon-profile{
     border-radius: 50%;
     height: 80px;
